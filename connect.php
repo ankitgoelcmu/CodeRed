@@ -1,9 +1,10 @@
 <?php
 
-	$host="us-cdbr-azure-west-c.cloudapp.net";
-	$user="bd0e3aeafe641e";
-	$pass="1e8243d1";
-	$dbname="codereddb";
+	$host="tcp:dbseriver.database.windows.net";
+	$user="agoel001";
+	$pass="Sumologic12!";
+	$dbname="dbseriver";
+//Data Source=tcp:dbseriver.database.windows.net,1433;Initial Catalog=ECommerce;User ID=agoel001@dbseriver;Password=Sumologic12!
 	
 	$con=mysqli_connect($host, $user, $pass, $dbname);
 	
