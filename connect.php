@@ -1,6 +1,6 @@
 <?php
 
-	$host="tcp:dbseriver.database.windows.net";
+	$host="dbseriver.database.windows.net";
 	$user="agoel001";
 	$pass="Sumologic12!";
 	$dbname="dbseriver";
